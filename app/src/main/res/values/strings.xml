@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">StepsCounter</string>
+    <string name="enter_your_age">Enter Your Age</string>
+    <string name="recommended_steps">Recommended steps daily: %1$d</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="submit">Submit</string>
+    <string name="steps_out_of">%1$d / %2$d Steps</string>
+    <string name="channel_name">Step Counter Notification Channel</string>
+    <string name="channel_description">Notifications for step count progress and milestones</string>
+
+</resources>

@@ -1,0 +1,40 @@
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="64dp"
+    android:gravity="center">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:indeterminate="false"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:progressDrawable="@drawable/circular_progress_bar"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/stepsCountTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginBottom="20dp"
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/progressMessageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="70dp"
+    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/debugIncrementButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Increment Steps"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="20dp"/>
+</FrameLayout>
